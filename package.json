@@ -1,0 +1,22 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "npm run development",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
+        "prod": "npm run production",
+        "production": "mix --production",
+        "build-flow-editor": "cd nova-components/FlowEditor && npm run dev",
+        "build-flow-editor-prod": "cd nova-components/FlowEditor && npm run prod",
+        "build-marketing-segments": "cd nova-components/MarketingSegments && npm run dev",
+        "build-marketing-segments-prod": "cd nova-components/MarketingSegments && npm run prod"
+    },
+    "devDependencies": {
+        "axios": "^0.21",
+        "laravel-mix": "^6.0.6",
+        "lodash": "^4.17.19",
+        "postcss": "^8.1.14"
+    }
+}
